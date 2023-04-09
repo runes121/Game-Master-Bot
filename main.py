@@ -6,8 +6,8 @@ from random_word import RandomWords
 
 r = RandomWords()
 
-API_KEY = os.getenv('5957781585:AAEzb73wSiPjfxn1dLIUNhgtDsRnKU4MRSQ')
-bot = telebot.TeleBot('5957781585:AAEzb73wSiPjfxn1dLIUNhgtDsRnKU4MRSQ')
+API_KEY = os.getenv('YOUR API KEY')
+bot = telebot.TeleBot('YOUR API KEY')
 
 bot.send_message(
     -1001976218687,
